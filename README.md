@@ -1,6 +1,6 @@
 # Proving Security Theorems in Lean 4
 
-A dissertation project formalising cryptographic protocol security in Lean 4. The library models protocol participants, messages, and cryptographic operations, then uses an inductive knowledge predicate — inspired by the Dolev-Yao attacker model — to state and prove what each principal (including an adversary) can or cannot learn from a protocol transcript.
+A dissertation project formalising cryptographic protocol security in Lean 4. The library models protocol participants, messages, and cryptographic operations, then uses an inductive knowledge predicate. Inspired by the Dolev-Yao attacker model and built to state and prove what each principal (including an adversary) can or cannot learn from a protocol transcript.
 
 The primary test case is a simplified TLS handshake, with a machine-checked proof that a passive adversary cannot derive the pre-master secret without the server's private key.
 
