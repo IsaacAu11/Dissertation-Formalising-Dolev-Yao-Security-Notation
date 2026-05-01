@@ -32,6 +32,10 @@ SecurityNotation/
 3. Alice → Server: `{| preMasterSecret |} serverPublicKey`
 4. Server → Alice: `{| aliceNonce |} sessionKey`
 
+## AI declaration
+
+AI (Claude, Anthropic) was used to assist with the code and proof development, specifically tlsHandshake 'EveKnowsNoPrivateKey' and helper lemmas.
+
 ## Dependencies
 
 - [Std4](https://github.com/leanprover/std4) `v4.26.0`
